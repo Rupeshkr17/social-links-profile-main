@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Social links profile</title>
+  <style>
+    *{
+      font-family: 'Inter';
+      margin: 0;
+      padding: 0;
+    }
+    .social-links-outer {
+      width: 100vw;
+      min-height: 100vh;
+      background-color:  hsl(0, 0%, 8%);
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-link-profile{
+      background-color:  hsl(0, 0%, 12%);
+      border-radius: 10px;
+      padding: 10px;
+      width: 20rem;
+      min-height: 30rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-pic img{
+      width: 150px; 
+      height: 150px;
+      border-radius: 75px;
+    }
+    .username {
+      color: hsl(0, 0%, 100%);
+      font-weight: 700;
+      margin-top: 1.5rem;
+    }
+    .location {
+      color: hsl(0, 0%, 100%);
+      font-weight: 400;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .profession {
+      color: hsl(0, 0%, 100%);
+      font-size: 14px;
+      margin-bottom: .5rem;
+    }
+    .button {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: .5rem;
+    }
+    .button input{
+      margin-top: 1rem;
+      padding: .5rem;
+      width: 15rem;
+      border-radius: 10px;
+      border: none;
+      color: hsl(0, 0%, 100%);
+      background: hsl(0, 0%, 20%);
+      cursor: pointer;
+    }
+    .button :hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+  </style>
+</head>
+<body>
+  <div class="social-links-outer">
+    <div class="social-link-profile">
+      <div class="profile-pic">
+        <img src="/assets/images/avatar-jessica.jpeg" />
+      </div>
+      <div class="username">
+        <p>Jessica Randall</p>
+      </div>
+      <div class="location">
+        <p>London, United Kingdom</p>
+      </div>
+      <div class="profession">
+        <p>"Front-end developer and avid reader."</p>
+      </div>
+      <div class="button">
+        <input type="button" value="GitHub">
+        <a href="https://github.com/">
+        </a>
+        <input type="button" value="Frontend Mentor">
+        <a href="https://www.frontendmentor.io/">
+        </a>
+        <input type="button" value="Linkedln">
+        <a href="https://in.linkedin.com/">
+        </a>
+        <input type="button" value="Twitter">
+        <a href="https://twitter.com/?lang=en">
+        </a>
+        <input type="button" value="Instagram">
+        <a href="https://www.instagram.com/">
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
