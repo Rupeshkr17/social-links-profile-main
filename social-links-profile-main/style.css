@@ -1,0 +1,64 @@
+*{
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+  }
+  .social-links-outer {
+    width: 100vw;
+    min-height: 100vh;
+    background-color:  hsl(0, 0%, 8%);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-link-profile{
+    background-color:  hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 10px;
+    width: 20rem;
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-pic img{
+    width: 150px; 
+    height: 150px;
+    border-radius: 75px;
+  }
+  .username {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 1.5rem;
+  }
+  .location {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .profession {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-bottom: .5rem;
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+  }
+  .button input{
+    margin-top: 1rem;
+    padding: .5rem;
+    width: 15rem;
+    border-radius: 10px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 20%);
+    cursor: pointer;
+  }
+  .button :hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+  }
